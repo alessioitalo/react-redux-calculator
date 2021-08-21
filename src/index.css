@@ -59,8 +59,14 @@ button:active {
   text-align: center;
   padding: 1rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.dark a {
+  color: hsl(6, 63%, 50%);
+}
+.light a {
+  color: hsl(25, 98%, 40%);
+}
+.modern a {
+  color: hsl(176, 100%, 44%);
 }
 
 @media (max-width: 600px) {

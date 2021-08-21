@@ -4,13 +4,14 @@ import styled from "styled-components";
 
 const StyledDisplay = styled.div`
   height: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: right;
   margin: 1.5rem 0;
   padding: 2rem 0.5rem;
   border-radius: 5px;
-  ${'' /* overflow-x: auto; */}
-  ${'' /* overflow-y: hidden; */}
+  max-width: 22rem;
+  overflow-x: auto;
+  overflow-y: hidden;
 
   &.dark {
     background-color: hsl(224, 36%, 15%);

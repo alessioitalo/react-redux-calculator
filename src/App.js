@@ -13,7 +13,7 @@ function App() {
         <Display />
         <Keypad />
       </div>
-      <div className="attribution">
+      <div className={`attribution ${theme.theme}`}>
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io"
